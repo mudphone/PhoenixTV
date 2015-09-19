@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFA7F5151BAE271B00981263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7F5141BAE271B00981263 /* AppDelegate.swift */; };
+		CFA7F5171BAE271B00981263 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7F5161BAE271B00981263 /* ViewController.swift */; };
+		CFA7F51A1BAE271B00981263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA7F5181BAE271B00981263 /* Main.storyboard */; };
+		CFA7F51C1BAE271B00981263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA7F51B1BAE271B00981263 /* Assets.xcassets */; };
+		CFA7F5271BAE271B00981263 /* PhoenixTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7F5261BAE271B00981263 /* PhoenixTVTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFA7F5231BAE271B00981263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFA7F5091BAE271B00981263 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFA7F5101BAE271B00981263;
+			remoteInfo = PhoenixTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFA7F5111BAE271B00981263 /* PhoenixTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoenixTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA7F5141BAE271B00981263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFA7F5161BAE271B00981263 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFA7F5191BAE271B00981263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFA7F51B1BAE271B00981263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFA7F51D1BAE271B00981263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA7F5221BAE271B00981263 /* PhoenixTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoenixTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA7F5261BAE271B00981263 /* PhoenixTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoenixTVTests.swift; sourceTree = "<group>"; };
+		CFA7F5281BAE271B00981263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFA7F50E1BAE271B00981263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA7F51F1BAE271B00981263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFA7F5081BAE271B00981263 = {
+			isa = PBXGroup;
+			children = (
+				CFA7F5131BAE271B00981263 /* PhoenixTV */,
+				CFA7F5251BAE271B00981263 /* PhoenixTVTests */,
+				CFA7F5121BAE271B00981263 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFA7F5121BAE271B00981263 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFA7F5111BAE271B00981263 /* PhoenixTV.app */,
+				CFA7F5221BAE271B00981263 /* PhoenixTVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFA7F5131BAE271B00981263 /* PhoenixTV */ = {
+			isa = PBXGroup;
+			children = (
+				CFA7F5141BAE271B00981263 /* AppDelegate.swift */,
+				CFA7F5161BAE271B00981263 /* ViewController.swift */,
+				CFA7F5181BAE271B00981263 /* Main.storyboard */,
+				CFA7F51B1BAE271B00981263 /* Assets.xcassets */,
+				CFA7F51D1BAE271B00981263 /* Info.plist */,
+			);
+			path = PhoenixTV;
+			sourceTree = "<group>";
+		};
+		CFA7F5251BAE271B00981263 /* PhoenixTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFA7F5261BAE271B00981263 /* PhoenixTVTests.swift */,
+				CFA7F5281BAE271B00981263 /* Info.plist */,
+			);
+			path = PhoenixTVTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFA7F5101BAE271B00981263 /* PhoenixTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA7F52B1BAE271B00981263 /* Build configuration list for PBXNativeTarget "PhoenixTV" */;
+			buildPhases = (
+				CFA7F50D1BAE271B00981263 /* Sources */,
+				CFA7F50E1BAE271B00981263 /* Frameworks */,
+				CFA7F50F1BAE271B00981263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoenixTV;
+			productName = PhoenixTV;
+			productReference = CFA7F5111BAE271B00981263 /* PhoenixTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFA7F5211BAE271B00981263 /* PhoenixTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA7F52E1BAE271B00981263 /* Build configuration list for PBXNativeTarget "PhoenixTVTests" */;
+			buildPhases = (
+				CFA7F51E1BAE271B00981263 /* Sources */,
+				CFA7F51F1BAE271B00981263 /* Frameworks */,
+				CFA7F5201BAE271B00981263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFA7F5241BAE271B00981263 /* PBXTargetDependency */,
+			);
+			name = PhoenixTVTests;
+			productName = PhoenixTVTests;
+			productReference = CFA7F5221BAE271B00981263 /* PhoenixTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFA7F5091BAE271B00981263 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Kyle Oba";
+				TargetAttributes = {
+					CFA7F5101BAE271B00981263 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					CFA7F5211BAE271B00981263 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = CFA7F5101BAE271B00981263;
+					};
+				};
+			};
+			buildConfigurationList = CFA7F50C1BAE271B00981263 /* Build configuration list for PBXProject "PhoenixTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFA7F5081BAE271B00981263;
+			productRefGroup = CFA7F5121BAE271B00981263 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFA7F5101BAE271B00981263 /* PhoenixTV */,
+				CFA7F5211BAE271B00981263 /* PhoenixTVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFA7F50F1BAE271B00981263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA7F51C1BAE271B00981263 /* Assets.xcassets in Resources */,
+				CFA7F51A1BAE271B00981263 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA7F5201BAE271B00981263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFA7F50D1BAE271B00981263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA7F5171BAE271B00981263 /* ViewController.swift in Sources */,
+				CFA7F5151BAE271B00981263 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA7F51E1BAE271B00981263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA7F5271BAE271B00981263 /* PhoenixTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFA7F5241BAE271B00981263 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFA7F5101BAE271B00981263 /* PhoenixTV */;
+			targetProxy = CFA7F5231BAE271B00981263 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFA7F5181BAE271B00981263 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFA7F5191BAE271B00981263 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFA7F5291BAE271B00981263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		CFA7F52A1BAE271B00981263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFA7F52C1BAE271B00981263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PhoenixTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pasdechocolat.PhoenixTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFA7F52D1BAE271B00981263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PhoenixTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pasdechocolat.PhoenixTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFA7F52F1BAE271B00981263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhoenixTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pasdechocolat.PhoenixTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoenixTV.app/PhoenixTV";
+			};
+			name = Debug;
+		};
+		CFA7F5301BAE271B00981263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PhoenixTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pasdechocolat.PhoenixTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoenixTV.app/PhoenixTV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFA7F50C1BAE271B00981263 /* Build configuration list for PBXProject "PhoenixTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA7F5291BAE271B00981263 /* Debug */,
+				CFA7F52A1BAE271B00981263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA7F52B1BAE271B00981263 /* Build configuration list for PBXNativeTarget "PhoenixTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA7F52C1BAE271B00981263 /* Debug */,
+				CFA7F52D1BAE271B00981263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFA7F52E1BAE271B00981263 /* Build configuration list for PBXNativeTarget "PhoenixTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA7F52F1BAE271B00981263 /* Debug */,
+				CFA7F5301BAE271B00981263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFA7F5091BAE271B00981263 /* Project object */;
+}
