@@ -12,6 +12,9 @@
 		CFA7F51A1BAE271B00981263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFA7F5181BAE271B00981263 /* Main.storyboard */; };
 		CFA7F51C1BAE271B00981263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA7F51B1BAE271B00981263 /* Assets.xcassets */; };
 		CFA7F5271BAE271B00981263 /* PhoenixTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7F5261BAE271B00981263 /* PhoenixTVTests.swift */; };
+		CFA7F5381BAE2D9900981263 /* TVServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA7F5371BAE2D9900981263 /* TVServices.framework */; };
+		CFA7F53B1BAE2D9900981263 /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7F53A1BAE2D9900981263 /* ServiceProvider.swift */; };
+		CFA7F53F1BAE2D9900981263 /* PrettyPreview.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CFA7F5351BAE2D9900981263 /* PrettyPreview.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,7 +25,28 @@
 			remoteGlobalIDString = CFA7F5101BAE271B00981263;
 			remoteInfo = PhoenixTV;
 		};
+		CFA7F53D1BAE2D9900981263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFA7F5091BAE271B00981263 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFA7F5341BAE2D9900981263;
+			remoteInfo = PrettyPreview;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CFA7F5431BAE2D9900981263 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CFA7F53F1BAE2D9900981263 /* PrettyPreview.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CFA7F5111BAE271B00981263 /* PhoenixTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoenixTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,6 +58,10 @@
 		CFA7F5221BAE271B00981263 /* PhoenixTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoenixTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA7F5261BAE271B00981263 /* PhoenixTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoenixTVTests.swift; sourceTree = "<group>"; };
 		CFA7F5281BAE271B00981263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFA7F5351BAE2D9900981263 /* PrettyPreview.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PrettyPreview.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA7F5371BAE2D9900981263 /* TVServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVServices.framework; path = System/Library/Frameworks/TVServices.framework; sourceTree = SDKROOT; };
+		CFA7F53A1BAE2D9900981263 /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		CFA7F53C1BAE2D9900981263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +79,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CFA7F5321BAE2D9900981263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA7F5381BAE2D9900981263 /* TVServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -59,6 +95,8 @@
 			children = (
 				CFA7F5131BAE271B00981263 /* PhoenixTV */,
 				CFA7F5251BAE271B00981263 /* PhoenixTVTests */,
+				CFA7F5391BAE2D9900981263 /* PrettyPreview */,
+				CFA7F5361BAE2D9900981263 /* Frameworks */,
 				CFA7F5121BAE271B00981263 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,6 +106,7 @@
 			children = (
 				CFA7F5111BAE271B00981263 /* PhoenixTV.app */,
 				CFA7F5221BAE271B00981263 /* PhoenixTVTests.xctest */,
+				CFA7F5351BAE2D9900981263 /* PrettyPreview.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,6 +132,23 @@
 			path = PhoenixTVTests;
 			sourceTree = "<group>";
 		};
+		CFA7F5361BAE2D9900981263 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFA7F5371BAE2D9900981263 /* TVServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFA7F5391BAE2D9900981263 /* PrettyPreview */ = {
+			isa = PBXGroup;
+			children = (
+				CFA7F53A1BAE2D9900981263 /* ServiceProvider.swift */,
+				CFA7F53C1BAE2D9900981263 /* Info.plist */,
+			);
+			path = PrettyPreview;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,10 +159,12 @@
 				CFA7F50D1BAE271B00981263 /* Sources */,
 				CFA7F50E1BAE271B00981263 /* Frameworks */,
 				CFA7F50F1BAE271B00981263 /* Resources */,
+				CFA7F5431BAE2D9900981263 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CFA7F53E1BAE2D9900981263 /* PBXTargetDependency */,
 			);
 			name = PhoenixTV;
 			productName = PhoenixTV;
@@ -131,6 +189,23 @@
 			productReference = CFA7F5221BAE271B00981263 /* PhoenixTVTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		CFA7F5341BAE2D9900981263 /* PrettyPreview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA7F5401BAE2D9900981263 /* Build configuration list for PBXNativeTarget "PrettyPreview" */;
+			buildPhases = (
+				CFA7F5311BAE2D9900981263 /* Sources */,
+				CFA7F5321BAE2D9900981263 /* Frameworks */,
+				CFA7F5331BAE2D9900981263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrettyPreview;
+			productName = PrettyPreview;
+			productReference = CFA7F5351BAE2D9900981263 /* PrettyPreview.appex */;
+			productType = "com.apple.product-type.tv-app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -146,6 +221,9 @@
 					CFA7F5211BAE271B00981263 = {
 						CreatedOnToolsVersion = 7.1;
 						TestTargetID = CFA7F5101BAE271B00981263;
+					};
+					CFA7F5341BAE2D9900981263 = {
+						CreatedOnToolsVersion = 7.1;
 					};
 				};
 			};
@@ -164,6 +242,7 @@
 			targets = (
 				CFA7F5101BAE271B00981263 /* PhoenixTV */,
 				CFA7F5211BAE271B00981263 /* PhoenixTVTests */,
+				CFA7F5341BAE2D9900981263 /* PrettyPreview */,
 			);
 		};
 /* End PBXProject section */
@@ -179,6 +258,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CFA7F5201BAE271B00981263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA7F5331BAE2D9900981263 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -205,6 +291,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CFA7F5311BAE2D9900981263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA7F53B1BAE2D9900981263 /* ServiceProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -212,6 +306,11 @@
 			isa = PBXTargetDependency;
 			target = CFA7F5101BAE271B00981263 /* PhoenixTV */;
 			targetProxy = CFA7F5231BAE271B00981263 /* PBXContainerItemProxy */;
+		};
+		CFA7F53E1BAE2D9900981263 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFA7F5341BAE2D9900981263 /* PrettyPreview */;
+			targetProxy = CFA7F53D1BAE2D9900981263 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -313,6 +412,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = PhoenixTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pasdechocolat.PhoenixTV;
@@ -325,6 +425,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = PhoenixTV/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pasdechocolat.PhoenixTV;
@@ -356,6 +457,28 @@
 			};
 			name = Release;
 		};
+		CFA7F5411BAE2D9900981263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrettyPreview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pasdechocolat.PhoenixTV.PrettyPreview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CFA7F5421BAE2D9900981263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrettyPreview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pasdechocolat.PhoenixTV.PrettyPreview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -381,6 +504,14 @@
 			buildConfigurations = (
 				CFA7F52F1BAE271B00981263 /* Debug */,
 				CFA7F5301BAE271B00981263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFA7F5401BAE2D9900981263 /* Build configuration list for PBXNativeTarget "PrettyPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA7F5411BAE2D9900981263 /* Debug */,
+				CFA7F5421BAE2D9900981263 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
