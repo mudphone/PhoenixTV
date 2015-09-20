@@ -213,7 +213,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0710;
-				ORGANIZATIONNAME = "Kyle Oba";
+				ORGANIZATIONNAME = "Pas de Chocolat, LLC";
 				TargetAttributes = {
 					CFA7F5101BAE271B00981263 = {
 						CreatedOnToolsVersion = 7.1;
