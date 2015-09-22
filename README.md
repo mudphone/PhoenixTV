@@ -1,6 +1,8 @@
 PhoenixTV
 =========
 
+![Behold! Phoenix TV!](https://raw.githubusercontent.com/mudphone/PhoenixTV/master/Docs/images/NeedMoreButton.png)
+
 A sample AppleTV tvOS application which works with the [Phoenix Chat Example](https://github.com/chrismccord/phoenix_chat_example) app.
 
 ## Setup
