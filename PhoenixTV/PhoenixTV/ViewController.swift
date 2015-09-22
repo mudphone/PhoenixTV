@@ -7,8 +7,10 @@
 //
 
 import UIKit
+import SwiftPhoenixClient
 
 class ViewController: UIViewController {
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
